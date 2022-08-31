@@ -1,0 +1,77 @@
+.tiendas{
+        
+    display: inline-block;
+    width: 100%;
+
+
+    .tiendas__titulo{
+
+        
+        height: 40px;
+        margin: 6rem;
+        padding: 5rem;
+        text-align: center;
+
+        @extend .title-Template;
+        
+    }
+
+    .tiendas__subtitulo{
+        
+        
+
+        height: 3px;
+        margin: 2rem;
+        padding: 4rem;
+        color: rgba(0, 0, 0, 0.862);
+        text-align: center;
+        font-size: 35px;
+        font-style: italic;
+        text-shadow: black 1px 1px 4px;
+        overflow: hidden;
+    }
+
+    .tiendas__cont{
+
+        
+        display: inline-block;
+        margin: 4rem;
+        height: 600px;
+        
+
+    }
+    .tiendas__tabla{
+       
+        display: inline-block;
+        margin: 3rem;
+        width: 35%;
+        height: 550px;
+        margin: 3rem;
+        padding: 2rem;
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
+        background-color: bisque ;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    .tiendas__img{
+        
+        display: inline-block; 
+        width: 45%;
+        height: 550px;
+        overflow: hidden;
+        margin: 0rem;
+        padding: 3rem;
+        border-radius: 20px;
+        
+    }
+    .tiendas__foto{
+        border-radius: 20px;
+        margin: 0rem;
+        padding: 0;
+    }
+
+
+}

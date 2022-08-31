@@ -1,0 +1,51 @@
+.header {
+    width: 98.5%;
+    height: 60px;
+    background-color: bisque ;
+    border: 3px solid #A8C73A;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    position: fixed;
+   
+   }
+
+   .header__navegador{
+    display: flex;
+    height: 40px;
+    justify-items: center;
+    align-items: center;
+    padding: 0.5rem;
+    }
+
+
+    .header__lista{
+
+    list-style: none;
+    text-decoration: double;
+    text-transform: uppercase;
+    font-size: 16px;
+    color:black;
+    display: flex;
+
+    justify-content: flex-start ;
+    align-items: center;
+    text-shadow: grey 1px 1px 4px;
+
+    gap: 5rem;
+   
+  
+    
+    }
+
+
+    .header__logo{
+    height: 55px;
+    align-items: center;
+    
+    display: flex;
+
+    
+    } 

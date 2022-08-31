@@ -1,0 +1,128 @@
+.np{
+
+    display: inline-block;
+    width: 100%;
+
+    .np__titulo{
+        height: 80px;
+        margin: 5rem;
+        padding: 5rem;
+        text-align: center;
+        @extend .title-Template;
+        
+    }
+
+    .np__desayunos{
+        
+        
+        margin: 4rem; 
+        background-color: rgb(255, 228, 196);
+        border-radius: 10px
+
+    }
+
+    .np__nuestrosdesayunos{
+        
+        color: rgba(0, 0, 0, 0.862);
+       
+        font-size: 25px;
+        font-style: italic;
+        text-shadow: black 1px 1px 4px;
+        margin: 1rem;
+        
+    }
+
+    .np__imgdesayuno{
+
+        margin: 1rem;
+        padding: 3px;
+        border-radius: 20px
+        
+    }
+
+    .np__waffles{
+        
+        margin: 4rem; 
+        background-color: rgb(255, 228, 196);
+        border-radius: 10px
+    }
+
+    .np__nuestroswaffles{
+    
+        color: rgba(0, 0, 0, 0.862);
+        text-align: start;
+        font-size: 25px;
+        font-style: italic;
+        text-shadow: black 1px 1px 4px;
+        margin: 1rem;
+
+    }
+
+    .np__imgwaffles{
+        margin: 1rem;
+        padding: 0.6rem;
+        border-radius: 20px
+    }
+
+    .np__bombones-budines{
+        
+        margin: 4rem; 
+        border-radius: 10px  
+    }
+
+    .np__bombones{
+        
+        
+        display: inline-block;
+        border-radius: 10px;
+        background-color: rgb(255, 228, 196);
+        margin: 2rem;
+        padding: 2.5rem;
+    }
+
+    .np__nuestrosbombones{
+        
+        color: rgba(0, 0, 0, 0.862);
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
+        text-shadow: black 1px 1px 4px;
+        margin: 0rem;
+    }
+
+    .np__imgbombones{
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 20px;
+    }
+
+    .np__budines{
+        
+        display: inline-block;
+        border-radius: 10px;
+        background-color: rgb(255, 228, 196);
+        margin: 2rem;
+        padding: 2.5rem;
+    }
+    
+
+    .np__nuestrosbudines{
+        
+        color: rgba(0, 0, 0, 0.862);
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
+        text-shadow: black 1px 1px 4px;
+        margin: 0rem;
+
+    }
+
+    .np__imgbudines{
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border-radius:20px;
+    }
+    
+
+
+}

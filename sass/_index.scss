@@ -1,0 +1,71 @@
+.main{
+     
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 800px;
+    grid-template-areas: 
+     "tit tit"
+     "tex img";
+
+     .main__titulo{
+        
+       
+        text-align: center;
+        margin: 4rem;
+        padding: 6rem;
+        grid-area: tit;
+        @extend .title-Template;
+    
+        
+       }
+
+       .main__presentacion{
+
+        
+        overflow: hidden;
+        
+        grid-area: img;
+        
+    }
+
+    .main__imagen{
+        margin: 3rem;
+        padding: 2rem;
+        border-radius: 10px;
+      
+       
+      
+    }
+
+
+    .foto{
+      border-radius: 5px;
+      
+    
+    }
+
+    .main__subtitulo {
+        font-size: 35px;
+        font-style: italic;
+        color: #156D3F;
+        text-align: center;
+        
+
+    }
+    
+    .main__parrafo{
+        font-family: 'Dancing Script', cursive;
+        font-size: 25px;
+       
+        margin: 4rem;
+        
+        line-height: 2.8rem;
+        
+        text-align: center;
+        overflow: hidden;
+        grid-area: tex; 
+        background-color:#ffe5c4c8;
+        border-radius: 5px;
+    }
+}
